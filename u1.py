@@ -32,3 +32,7 @@ years = int(input("Hur gammal är du? "))
 Weeks = years * 52
 
 print ("Du har levt ungefär så här många", Weeks, "veckor.")
+
+viktkg = float(input("För att du ska se hur mycket du väger i ibs, skirv in din vikt i kg: "))
+viktibs = viktkg * 2.20462
+print("Din vikt i pounds är " , viktibs)
